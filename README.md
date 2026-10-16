@@ -2,7 +2,7 @@
 
 Monitoramento de temperatura e umidade com **ESP32, DHT22, MQTT e duas aplicações Flask em Docker**. A decisão ocorre na borda: o ESP32 lê o sensor, define o estado e acende os LEDs. A API recebe a última leitura; o dashboard apresenta os dados.
 
-> Projeto executado e demonstração integrada preparada em vídeo. O repositório já está público no GitHub. Falta publicar o vídeo no YouTube e inserir seu link real abaixo. Consulte [VALIDACAO.md](docs/VALIDACAO.md) para saber exatamente o que foi testado neste pacote.
+> Projeto executado e demonstração integrada preparada em vídeo. O repositório está público no GitHub, a simulação está salva no Wokwi e o vídeo está publicado no YouTube como Não listado. Os links estão abaixo. Consulte [VALIDACAO.md](docs/VALIDACAO.md) para saber exatamente o que foi testado neste pacote.
 
 ## Identificação e links obrigatórios
 
@@ -12,7 +12,7 @@ Monitoramento de temperatura e umidade com **ESP32, DHT22, MQTT e duas aplicaç�
 | Integrantes (nome e RM) | Listados abaixo |
 | Repositório público GitHub | [CP06 Smart Factory](https://github.com/RafaelQuattrer/cp06-smart-factory) |
 | Projeto Wokwi | [CP06 Smart Factory](https://wokwi.com/projects/478070654175725569) |
-| Vídeo YouTube (Não listado, 2 a 5 min) | PREENCHER COM O LINK REAL |
+| Vídeo YouTube (Não listado, 2 a 5 min) | [CP06 Smart Factory — demonstração de 2 minutos](https://www.youtube.com/watch?v=rveELE02XiQ) |
 
 **Integrantes**
 
@@ -21,13 +21,13 @@ Monitoramento de temperatura e umidade com **ESP32, DHT22, MQTT e duas aplicaç�
 - Rafael Quattrer Dalla Costa — RM 562052
 - João Vitor Santana Silva Ribeiro — RM 564693
 
-Os links do GitHub e do Wokwi foram verificados. Falta inserir o link do YouTube antes de entregar. O professor solicita o **link do repositório público**; o ZIP é um pacote para transportar os arquivos, não substitui os links obrigatórios.
+Os links do GitHub, Wokwi e YouTube foram inseridos e verificados. O professor solicita o **link do repositório público**; o ZIP é um pacote para transportar os arquivos, não substitui os links obrigatórios.
 
 ## Vídeo preparado
 
 O arquivo [CP06_Smart_Factory_Simples.mp4](video/CP06_Smart_Factory_Simples.mp4) tem **2 minutos**, sem narração, legendas ou apresentações. Mostra as telas reais dos contêineres, a espera inicial e a sequência **30 → 35 → 36 → 30 °C**, com LEDs, API e dashboard. Veja [VIDEO_GERADO.md](docs/VIDEO_GERADO.md) para os detalhes da captura.
 
-Assista ao arquivo, publique no YouTube como **Não listado** e preencha o link real na tabela. O arquivo local não significa que o vídeo já foi publicado.
+A demonstração também está disponível no [YouTube, como Não listado](https://www.youtube.com/watch?v=rveELE02XiQ). O MP4 na pasta `video/` é uma cópia para download.
 
 ## Arquitetura
 
@@ -237,7 +237,7 @@ python dashboard/app.py
 
 ## Antes de entregar
 
-Use o [checklist de entrega](docs/CHECKLIST_ENTREGA.md). O projeto já está neste repositório **público**, com o README na raiz e o link real do Wokwi. Publique o vídeo como **Não listado** e insira o link real. Teste os três links em janela anônima, sem login e sem convite. Mantenha-os acessíveis até o fim da avaliação. Conforme o enunciado, links ausentes, quebrados ou privados invalidam a atividade.
+Use o [checklist de entrega](docs/CHECKLIST_ENTREGA.md). O projeto está neste repositório **público**, com o README na raiz e os links reais do Wokwi e do vídeo **Não listado**. Os links foram verificados; confira novamente o acesso sem login antes de enviar o link deste repositório no canal definido pelo professor. Mantenha-os acessíveis até o fim da avaliação. Conforme o enunciado, links ausentes, quebrados ou privados invalidam a atividade.
 
 ## Referências
 

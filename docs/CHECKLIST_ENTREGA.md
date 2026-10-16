@@ -30,9 +30,9 @@
 - [x] Repositório GitHub público, README na raiz e arquivos incluídos; acesso sem autenticação verificado.
 - [x] Projeto Wokwi salvo e link real inserido no README.
 - [x] Vídeo simples de 2 minutos com a sequência obrigatória completa na pasta video/.
-- [ ] Vídeo publicado no YouTube como Não listado e link real no README.
+- [x] Vídeo publicado no YouTube como Não listado, conferido no Studio e link real inserido no README.
 - [ ] Abrir GitHub, Wokwi e YouTube em janela anônima, sem login/convite.
-- [ ] Verificar que não restou link obrigatório ausente.
+- [x] Nenhum link obrigatório ausente no README.
 - [ ] Enviar uma única vez por equipe o link público do GitHub no canal do professor.
 - [ ] Manter os três links acessíveis até o término da avaliação.
 
