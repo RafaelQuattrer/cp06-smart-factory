@@ -1,0 +1,4 @@
+-r api/requirements.txt
+-r dashboard/requirements.txt
+pytest==8.4.2
+PyYAML==6.0.3

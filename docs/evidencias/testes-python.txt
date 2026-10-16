@@ -1,0 +1,13 @@
+Registro da execução em 16/10/2026
+Comando, na raiz do projeto: python -m pytest -q
+Ambiente: Windows; Python 3.12; dependências de requirements-dev.txt.
+
+Atualização após a correção dos nomes D15/D18/D19 no diagrama Wokwi:
+.......................................................                  [100%]
+55 passed in 1.00s
+
+Foi acrescentada uma verificação dos nomes dos GPIOs do modelo clássico
+wokwi-esp32-devkit-v1. O circuito passou também a ser validado na simulação.
+
+Os testes unitários usam mocks/fixtures quando indicado no código.
+Não comprovam execução de Docker nem do simulador Wokwi.

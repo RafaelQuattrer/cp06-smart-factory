@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a26">
+  <title>Smart Factory · Monitor de ambiente</title>
+  <link rel="icon" href="{{ url_for('static', filename='factory.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+{% set state = reading.estado|lower if reading else 'waiting' %}
+<body class="state-{{ state }}">
+  <aside class="rail" aria-label="Identidade do projeto">
+    <a class="brand" href="/" aria-label="Smart Factory, início"><img src="{{ url_for('static', filename='factory.svg') }}" alt="" width="38" height="38"><span>SF<span class="brand-dot">.</span></span></a>
+    <div class="rail-label"><span class="rail-icon">◈</span><span>Monitor</span></div>
+    <span class="rail-bottom">CP06</span>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>EDGE COMPUTING <span class="separator">/</span> SMART FACTORY</span><span class="top-tag">AMBIENTE SIMULADO</span></header>
+    <main>
+      <section class="heading">
+        <div><p class="eyebrow">VISÃO GERAL <span class="tiny-line"></span> DHT22 + ESP32</p><h1>O ambiente,<br><span>sob controle.</span></h1><p class="intro">Temperatura e umidade da fábrica em um só lugar.</p></div>
+        <form action="/" method="get"><button type="submit"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5M6 8a7 7 0 0 1 11-2l3 3M4 15l3 3a7 7 0 0 0 11-2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Atualizar</button><span class="manual-note">Consulta manual · publicação a cada 5 s</span></form>
+      </section>
+      <section class="status-banner" role="status" aria-live="polite"><div class="status-copy"><span class="status-light"></span><div><p class="eyebrow">ESTADO INFORMADO PELO ESP32</p><h2>{{ message }}</h2><p>{{ detail }}</p></div></div><div class="limit-tag">LIMITE LOCAL<strong>35 <small>°C</small></strong></div></section>
+      <section class="metrics" aria-label="Última leitura recebida">
+        <article class="metric temperature"><div class="card-top"><span>TEMPERATURA</span><svg width="25" height="25" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 14.5V5a3 3 0 0 1 6 0v9.5a5 5 0 1 1-6 0Z" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div class="value">{% if reading %}{{ '%.1f'|format(reading.temperatura)|replace('.', ',') }}{% else %}<span aria-label="Sem leitura">—</span>{% endif %}<span class="unit">°C</span></div><div class="scale" aria-hidden="true"><span></span><i></i></div><div class="card-foot"><span>≤ 35 °C · Normal</span><span>&gt; 35 °C · Alerta</span></div></article>
+        <article class="metric humidity"><div class="card-top"><span>UMIDADE RELATIVA</span><svg width="25" height="25" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3s-7 8-7 12a7 7 0 0 0 14 0c0-4-7-12-7-12Z" stroke="currentColor" stroke-width="1.5"/><path d="M9 15a3 3 0 0 0 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div><div class="value">{% if reading %}{{ '%.1f'|format(reading.umidade)|replace('.', ',') }}{% else %}<span aria-label="Sem leitura">—</span>{% endif %}<span class="unit">%</span></div><p class="humidity-note">Leitura de acompanhamento</p><div class="card-foot"><span>A umidade não altera o estado dos LEDs.</span></div></article>
+      </section>
+      <section class="bottom-grid">
+        <article class="pipeline"><div class="section-title"><h2>Da borda à tela</h2><span>FLUXO DOS DADOS</span></div><div class="flow"><div><b>01</b><strong>ESP32</strong><small>Decide e sinaliza</small></div><span aria-hidden="true">→</span><div><b>02</b><strong>HiveMQ</strong><small>Transporta</small></div><span aria-hidden="true">→</span><div><b>03</b><strong>API</strong><small>Recebe a leitura</small></div><span aria-hidden="true">→</span><div><b>04</b><strong>Dashboard</strong><small>Apresenta</small></div></div></article>
+        <article class="edge-note"><span class="edge-symbol" aria-hidden="true">↯</span><h2>Inteligência na borda</h2><p>O ESP32 decide o estado e controla os LEDs. A decisão local continua mesmo sem conexão.</p></article>
+      </section>
+      <footer><span>CP06 · Smart Factory <span class="footer-divider">|</span> Edge Computing</span><span>{% if consulted_at %}Última consulta: {{ consulted_at }}{% else %}Nenhuma leitura disponível{% endif %}</span></footer>
+      {% if reading %}<p class="freshness">Exibindo a última leitura válida mantida pela API. O horário acima é o da consulta; não comprova uma nova medição.</p>{% endif %}
+    </main>
+  </div>
+</body>
+</html>

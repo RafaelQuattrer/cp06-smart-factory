@@ -1,0 +1,16 @@
+{
+  "data": "2026-10-16",
+  "comando": "python scripts/smoke_mqtt.py",
+  "resultado": "APROVADO",
+  "origem": "publicador sintético de teste, não ESP32",
+  "broker": "broker.hivemq.com:1883",
+  "topico": "edge/2ano/teste-automatizado/cp06/67d0662c0b0541f4ab60ff4a4dadaace/dados",
+  "api_inicial_http": 503,
+  "etapas": [
+    {"temperatura":30,"umidade":60,"estado":"NORMAL","api_http":200,"dashboard_http":200},
+    {"temperatura":35,"umidade":60,"estado":"NORMAL","api_http":200,"dashboard_http":200},
+    {"temperatura":36,"umidade":60,"estado":"ALERTA","api_http":200,"dashboard_http":200},
+    {"temperatura":30,"umidade":60,"estado":"NORMAL","api_http":200,"dashboard_http":200}
+  ],
+  "escopo": "Aplicações locais com HTTP real e transporte pelo HiveMQ real em tópico isolado. Não executou ESP32, Wokwi nem contêineres."
+}

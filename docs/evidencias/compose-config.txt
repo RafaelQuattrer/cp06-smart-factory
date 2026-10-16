@@ -1,0 +1,7 @@
+Data: 2026-10-16
+Docker Compose version v2.39.4
+
+SHA256 oficial verificado: 6b3bccfabcdd172e1d9e15d011b54c9b5b13b93b1153148108f55e4349055955
+Comando: docker-compose -f compose.yaml config --quiet
+Resultado: exit 0
+Somente configuração validada; nenhum contêiner foi construído ou executado.

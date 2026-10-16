@@ -1,0 +1,122 @@
+[
+  {
+    "name": "espera-api",
+    "frames": 12,
+    "fps": 2,
+    "seconds": 6,
+    "wall_ms": 6002,
+    "captured_at": "2026-10-16T22:03:18.636Z"
+  },
+  {
+    "name": "espera-dashboard",
+    "frames": 12,
+    "fps": 2,
+    "seconds": 6,
+    "wall_ms": 6011,
+    "captured_at": "2026-10-16T22:03:24.640Z"
+  },
+  {
+    "name": "inicio-wokwi",
+    "frames": 12,
+    "fps": 2,
+    "seconds": 6,
+    "wall_ms": 6013,
+    "captured_at": "2026-10-16T22:04:01.261Z"
+  },
+  {
+    "name": "t30-wokwi",
+    "frames": 24,
+    "fps": 2,
+    "seconds": 12,
+    "wall_ms": 12010,
+    "captured_at": "2026-10-16T22:04:12.239Z"
+  },
+  {
+    "name": "t30-api",
+    "frames": 8,
+    "fps": 2,
+    "seconds": 4,
+    "wall_ms": 4009,
+    "captured_at": "2026-10-16T22:04:29.688Z"
+  },
+  {
+    "name": "t30-dashboard",
+    "frames": 14,
+    "fps": 2,
+    "seconds": 7,
+    "wall_ms": 7000,
+    "captured_at": "2026-10-16T22:04:33.698Z"
+  },
+  {
+    "name": "t35-wokwi",
+    "frames": 24,
+    "fps": 2,
+    "seconds": 12,
+    "wall_ms": 12007,
+    "captured_at": "2026-10-16T22:05:20.133Z"
+  },
+  {
+    "name": "t35-api",
+    "frames": 8,
+    "fps": 2,
+    "seconds": 4,
+    "wall_ms": 4009,
+    "captured_at": "2026-10-16T22:05:32.151Z"
+  },
+  {
+    "name": "t35-dashboard",
+    "frames": 14,
+    "fps": 2,
+    "seconds": 7,
+    "wall_ms": 7003,
+    "captured_at": "2026-10-16T22:05:36.161Z"
+  },
+  {
+    "name": "t36-wokwi",
+    "frames": 24,
+    "fps": 2,
+    "seconds": 12,
+    "wall_ms": 12009,
+    "captured_at": "2026-10-16T22:07:19.679Z"
+  },
+  {
+    "name": "t36-api",
+    "frames": 8,
+    "fps": 2,
+    "seconds": 4,
+    "wall_ms": 4008,
+    "captured_at": "2026-10-16T22:07:31.689Z"
+  },
+  {
+    "name": "t36-dashboard",
+    "frames": 14,
+    "fps": 2,
+    "seconds": 7,
+    "wall_ms": 7003,
+    "captured_at": "2026-10-16T22:07:35.698Z"
+  },
+  {
+    "name": "retorno30-wokwi",
+    "frames": 24,
+    "fps": 2,
+    "seconds": 12,
+    "wall_ms": 12005,
+    "captured_at": "2026-10-16T22:07:47.816Z"
+  },
+  {
+    "name": "retorno30-api",
+    "frames": 8,
+    "fps": 2,
+    "seconds": 4,
+    "wall_ms": 4004,
+    "captured_at": "2026-10-16T22:07:59.823Z"
+  },
+  {
+    "name": "retorno30-dashboard",
+    "frames": 14,
+    "fps": 2,
+    "seconds": 7,
+    "wall_ms": 7002,
+    "captured_at": "2026-10-16T22:08:03.829Z"
+  }
+]

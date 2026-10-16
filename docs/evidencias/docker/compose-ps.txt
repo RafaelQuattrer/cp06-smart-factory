@@ -1,0 +1,3 @@
+NAME                             IMAGE                          COMMAND           SERVICE     CREATED              STATUS                        PORTS
+cp06-smart-factory-api-1         cp06-smart-factory-api         "python app.py"   api         About a minute ago   Up About a minute (healthy)   0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp
+cp06-smart-factory-dashboard-1   cp06-smart-factory-dashboard   "python app.py"   dashboard   About a minute ago   Up About a minute (healthy)   0.0.0.0:5001->5001/tcp, [::]:5001->5001/tcp

@@ -1,0 +1,38 @@
+{
+  "origem": "ESP32 simulado no Wokwi → HiveMQ real → API e dashboard locais; sem Docker",
+  "wokwi": "https://wokwi.com/projects/478070654175725569",
+  "etapas": [
+    {
+      "consulta_em": "2026-10-16T17:31:23.076266-03:00",
+      "api_http": 200,
+      "dashboard_http": 200,
+      "estado": "NORMAL",
+      "temperatura": 30.0,
+      "umidade": 60.0
+    },
+    {
+      "consulta_em": "2026-10-16T17:31:49.913828-03:00",
+      "api_http": 200,
+      "dashboard_http": 200,
+      "estado": "NORMAL",
+      "temperatura": 35.0,
+      "umidade": 60.0
+    },
+    {
+      "consulta_em": "2026-10-16T17:32:10.577032-03:00",
+      "api_http": 200,
+      "dashboard_http": 200,
+      "estado": "ALERTA",
+      "temperatura": 36.0,
+      "umidade": 60.0
+    },
+    {
+      "consulta_em": "2026-10-16T17:32:40.188086-03:00",
+      "api_http": 200,
+      "dashboard_http": 200,
+      "estado": "NORMAL",
+      "temperatura": 30.0,
+      "umidade": 60.0
+    }
+  ]
+}

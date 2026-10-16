@@ -1,0 +1,34 @@
+name: cp06-smart-factory
+services:
+  api:
+    build: ./api
+    ports:
+      - "5000:5000"
+    environment:
+      MQTT_HOST: broker.hivemq.com
+      MQTT_PORT: "1883"
+      MQTT_TOPIC: ${MQTT_TOPIC:-edge/2ano/turma-pendente/equipe-pendente/cp06-4f8ab7c291e64396/dados}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/health', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+  dashboard:
+    build: ./dashboard
+    ports:
+      - "5001:5001"
+    environment:
+      API_URL: http://api:5000/dados
+      TZ: America/Sao_Paulo
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5001/health', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 10s

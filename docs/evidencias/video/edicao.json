@@ -1,0 +1,82 @@
+[
+  {
+    "scene": "docker",
+    "start": 0,
+    "duration": 10
+  },
+  {
+    "scene": "espera-api",
+    "start": 10,
+    "duration": 6
+  },
+  {
+    "scene": "espera-dashboard",
+    "start": 16,
+    "duration": 6
+  },
+  {
+    "scene": "inicio-wokwi",
+    "start": 22,
+    "duration": 6
+  },
+  {
+    "scene": "t30-wokwi",
+    "start": 28,
+    "duration": 12
+  },
+  {
+    "scene": "t30-api",
+    "start": 40,
+    "duration": 4
+  },
+  {
+    "scene": "t30-dashboard",
+    "start": 44,
+    "duration": 7
+  },
+  {
+    "scene": "t35-wokwi",
+    "start": 51,
+    "duration": 12
+  },
+  {
+    "scene": "t35-api",
+    "start": 63,
+    "duration": 4
+  },
+  {
+    "scene": "t35-dashboard",
+    "start": 67,
+    "duration": 7
+  },
+  {
+    "scene": "t36-wokwi",
+    "start": 74,
+    "duration": 12
+  },
+  {
+    "scene": "t36-api",
+    "start": 86,
+    "duration": 4
+  },
+  {
+    "scene": "t36-dashboard",
+    "start": 90,
+    "duration": 7
+  },
+  {
+    "scene": "retorno30-wokwi",
+    "start": 97,
+    "duration": 12
+  },
+  {
+    "scene": "retorno30-api",
+    "start": 109,
+    "duration": 4
+  },
+  {
+    "scene": "retorno30-dashboard",
+    "start": 113,
+    "duration": 7
+  }
+]

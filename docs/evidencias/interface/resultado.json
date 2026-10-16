@@ -1,0 +1,13 @@
+{
+  "origem": "fixtures sintéticas; não comprova ESP32, MQTT ou Docker",
+  "checks": [
+    "espera-desktop: renderização e ausência de overflow OK",
+    "espera-mobile: renderização e ausência de overflow OK",
+    "normal-desktop: renderização e ausência de overflow OK",
+    "normal-mobile: renderização e ausência de overflow OK",
+    "alerta-desktop: renderização e ausência de overflow OK",
+    "alerta-mobile: renderização e ausência de overflow OK",
+    "Atualizar: nova consulta, novos valores e estado OK; sem acesso do navegador à API"
+  ],
+  "erros": []
+}

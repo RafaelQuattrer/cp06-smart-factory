@@ -1,0 +1,27 @@
+Data: 2026-10-16
+Comando: python -m platformio run --project-dir firmware
+Ambiente: PlatformIO Core 6.1.18; Windows; caminho curto temporário.
+
+PLATFORM: Espressif 32 (6.12.0) > DOIT ESP32 DEVKIT V1
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b
+tool-esptoolpy @ 2.40900.250804 (4.9.0)
+toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+
+DHT sensor library for ESPx @ 1.19.0
+PubSubClient @ 2.8.0
+WiFi @ 2.0.0
+
+RAM: 13.7% (used 44768 bytes from 327680 bytes)
+Flash: 57.4% (used 751849 bytes from 1310720 bytes)
+Successfully created esp32 image.
+[SUCCESS] Took 7.12 seconds
+Resultado final: exit 0.
+
+Teste adicional:
+xtensa-esp32-elf-g++ -std=c++11 -c tests/edge_logic_test.cpp -o edge-test.o
+Seis static_assert avaliados pelo compilador, exit 0.
+Não foi executado programa C++ nativo ou circuito Wokwi.
+
+O código final inclui edge_logic.h com função constexpr, compilada nesta execução.
+O cache PlatformIO, toolchains e binários intermediários não fazem parte do ZIP.

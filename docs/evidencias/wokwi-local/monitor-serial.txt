@@ -1,0 +1,149 @@
+Browser tab: 1, Title: "CP06 Smart Factory - Wokwi ESP32, STM32, Arduino Simulator", URL: "https://wokwi.com/projects/478070654175725569".
+1 AXWebArea CP06 Smart Factory - Wokwi ESP32, STM32, Arduino Simulator, URL: wokwi.com/projects/478070654175725569
+	2 container
+		3 container
+			4 link wokwi.com/
+			5 button (disabled) SAVE
+			6 button
+			7 button SHARE
+			8 button Like this project
+			9 text CP06 Smart Factory
+			10 button
+			11 link Description: Docs, Value: docs.wokwi.com/?utm_source=wokwi
+			12 button toggle dark mode
+			13 button SIGN IN SIGN UP
+				14 text SIGN IN
+				15 text SIGN UP
+		16 container
+			17 container
+				18 button sketch.ino
+				19 button diagram.json
+				20 button config.h
+				21 button edge_logic.h
+				22 button libraries.txt
+				23 button Library Manager
+				24 button
+				57 container
+					58 editor (settable) Description: Editor content;Press Alt+F1 for Accessibility Options., Value:   "dependencies": {}
+}
+					70 container
+						71 text 73  104 
+						72 content list
+							73 container
+								74 text "connections"
+								75 text :
+								76 text [
+							77 container
+								78 text [
+			27 container
+				28 button Simulation
+				29 container
+					30 button Restart the simulation
+					60 button Stop the simulation
+					61 button Pause
+					79 button WiFi: Connected to Wokwi-GUEST (Public IoT Gateway)
+				106 text 02:27.734 99%
+				81 container
+					82 container
+						83 text Editing DHT22
+						84 text Temperature:
+						85 slider (settable, integer) 30
+						86 text 30.0 °C
+						87 text Humidity:
+						88 slider (settable, integer) 60
+						89 text 60.0 %
+					90 button
+					92 image
+						93 container
+							94 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+						95 text ESP32
+					96 container
+						97 image
+							98 text DHT22
+					99 container green
+						100 image
+						101 text NORMAL
+					102 container red
+						103 image
+						104 text ALERTA
+					105 image
+				63 container simple-tabpanel-0
+					64 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+CP06 Smart Factory | leitura e decisao locais a cada 5 s
+[MQTT] Conectado. Topico: edge/2ano/turma-pendente/equipe-pendente/cp06-4f8ab7c291e64396/dados
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 35.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":35.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 35.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":35.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 35.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":35.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 35.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":35.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 35.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":35.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 36.00 C | 60.00 % | ALERTA
+[MQTT ENVIADO] {"temperatura":36.00,"umidade":60.00,"estado":"ALERTA"}
+[EDGE] 36.00 C | 60.00 % | ALERTA
+[MQTT ENVIADO] {"temperatura":36.00,"umidade":60.00,"estado":"ALERTA"}
+[EDGE] 36.00 C | 60.00 % | ALERTA
+[MQTT ENVIADO] {"temperatura":36.00,"umidade":60.00,"estado":"ALERTA"}
+[EDGE] 36.00 C | 60.00 % | ALERTA
+[MQTT ENVIADO] {"temperatura":36.00,"umidade":60.00,"estado":"ALERTA"}
+[EDGE] 36.00 C | 60.00 % | ALERTA
+[MQTT ENVIADO] {"temperatura":36.00,"umidade":60.00,"estado":"ALERTA"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+[EDGE] 30.00 C | 60.00 % | NORMAL
+[MQTT ENVIADO] {"temperatura":30.00,"umidade":60.00,"estado":"NORMAL"}
+
+					65 text field (settable)
+					66 button Serial plotter
+					67 button Auto scroll
+					68 button
+					69 button Collapse
+
+The focused UI element is 85 slider (settable, integer) 30

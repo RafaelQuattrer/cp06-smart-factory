@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "CP06 Smart Factory",
+  "editor": "wokwi",
+  "parts": [
+    {"type":"wokwi-esp32-devkit-v1","id":"esp","top":0,"left":0,"attrs":{}},
+    {"type":"wokwi-dht22","id":"dht","top":-30,"left":220,"attrs":{"temperature":"30","humidity":"60"}},
+    {"type":"wokwi-led","id":"green","top":160,"left":200,"attrs":{"color":"green","label":"NORMAL"}},
+    {"type":"wokwi-led","id":"red","top":160,"left":300,"attrs":{"color":"red","label":"ALERTA"}},
+    {"type":"wokwi-resistor","id":"rg","top":230,"left":190,"rotate":90,"attrs":{"value":"220"}},
+    {"type":"wokwi-resistor","id":"rr","top":230,"left":290,"rotate":90,"attrs":{"value":"220"}},
+    {"type":"wokwi-resistor","id":"pullup","top":-70,"left":160,"attrs":{"value":"10000"}}
+  ],
+  "connections": [
+    ["esp:3V3","dht:VCC","red",[]],
+    ["esp:GND.1","dht:GND","black",[]],
+    ["esp:D15","dht:SDA","blue",[]],
+    ["esp:3V3","pullup:1","red",[]],
+    ["pullup:2","dht:SDA","blue",[]],
+    ["esp:D18","rg:1","green",[]],
+    ["rg:2","green:A","green",[]],
+    ["green:C","esp:GND.1","black",[]],
+    ["esp:D19","rr:1","red",[]],
+    ["rr:2","red:A","red",[]],
+    ["red:C","esp:GND.1","black",[]]
+  ],
+  "dependencies": {}
+}

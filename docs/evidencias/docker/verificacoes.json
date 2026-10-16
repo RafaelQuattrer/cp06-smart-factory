@@ -1,0 +1,235 @@
+[
+  {
+    "consulta_em": "2026-10-16T18:48:08.409379-03:00",
+    "origem": "Contêineres Docker reais; verificação somente de leitura; nenhum dado publicado pelo teste",
+    "servicos": [
+      {
+        "Name": "cp06-smart-factory-api-1",
+        "Service": "api",
+        "State": "running",
+        "Health": "healthy"
+      },
+      {
+        "Name": "cp06-smart-factory-dashboard-1",
+        "Service": "dashboard",
+        "State": "running",
+        "Health": "healthy"
+      }
+    ],
+    "api_http": 503,
+    "api_dados": {
+      "mensagem": "Aguardando dados do ESP32"
+    },
+    "dashboard_http": 200,
+    "consulta_interna_dashboard": {
+      "url": "http://api:5000/dados",
+      "status": 503,
+      "dados": {
+        "mensagem": "Aguardando dados do ESP32"
+      }
+    },
+    "resultado": "APROVADO"
+  },
+  {
+    "consulta_em": "2026-10-16T18:48:54.190299-03:00",
+    "origem": "Contêineres Docker reais; verificação somente de leitura; nenhum dado publicado pelo teste",
+    "servicos": [
+      {
+        "Name": "cp06-smart-factory-api-1",
+        "Service": "api",
+        "State": "running",
+        "Health": "healthy"
+      },
+      {
+        "Name": "cp06-smart-factory-dashboard-1",
+        "Service": "dashboard",
+        "State": "running",
+        "Health": "healthy"
+      }
+    ],
+    "api_http": 200,
+    "api_dados": {
+      "estado": "NORMAL",
+      "temperatura": 30.0,
+      "umidade": 60.0
+    },
+    "dashboard_http": 200,
+    "consulta_interna_dashboard": {
+      "url": "http://api:5000/dados",
+      "status": 200,
+      "dados": {
+        "estado": "NORMAL",
+        "temperatura": 30.0,
+        "umidade": 60.0
+      }
+    },
+    "resultado": "APROVADO"
+  },
+  {
+    "consulta_em": "2026-10-16T18:49:31.955060-03:00",
+    "origem": "Contêineres Docker reais; verificação somente de leitura; nenhum dado publicado pelo teste",
+    "servicos": [
+      {
+        "Name": "cp06-smart-factory-api-1",
+        "Service": "api",
+        "State": "running",
+        "Health": "healthy"
+      },
+      {
+        "Name": "cp06-smart-factory-dashboard-1",
+        "Service": "dashboard",
+        "State": "running",
+        "Health": "healthy"
+      }
+    ],
+    "api_http": 200,
+    "api_dados": {
+      "estado": "NORMAL",
+      "temperatura": 35.0,
+      "umidade": 60.0
+    },
+    "dashboard_http": 200,
+    "consulta_interna_dashboard": {
+      "url": "http://api:5000/dados",
+      "status": 200,
+      "dados": {
+        "estado": "NORMAL",
+        "temperatura": 35.0,
+        "umidade": 60.0
+      }
+    },
+    "resultado": "APROVADO"
+  },
+  {
+    "consulta_em": "2026-10-16T18:50:06.418332-03:00",
+    "origem": "Contêineres Docker reais; verificação somente de leitura; nenhum dado publicado pelo teste",
+    "servicos": [
+      {
+        "Name": "cp06-smart-factory-api-1",
+        "Service": "api",
+        "State": "running",
+        "Health": "healthy"
+      },
+      {
+        "Name": "cp06-smart-factory-dashboard-1",
+        "Service": "dashboard",
+        "State": "running",
+        "Health": "healthy"
+      }
+    ],
+    "api_http": 200,
+    "api_dados": {
+      "estado": "ALERTA",
+      "temperatura": 36.0,
+      "umidade": 60.0
+    },
+    "dashboard_http": 200,
+    "consulta_interna_dashboard": {
+      "url": "http://api:5000/dados",
+      "status": 200,
+      "dados": {
+        "estado": "ALERTA",
+        "temperatura": 36.0,
+        "umidade": 60.0
+      }
+    },
+    "resultado": "APROVADO"
+  },
+  {
+    "consulta_em": "2026-10-16T18:50:41.577805-03:00",
+    "origem": "Contêineres Docker reais; verificação somente de leitura; nenhum dado publicado pelo teste",
+    "servicos": [
+      {
+        "Name": "cp06-smart-factory-api-1",
+        "Service": "api",
+        "State": "running",
+        "Health": "healthy"
+      },
+      {
+        "Name": "cp06-smart-factory-dashboard-1",
+        "Service": "dashboard",
+        "State": "running",
+        "Health": "healthy"
+      }
+    ],
+    "api_http": 200,
+    "api_dados": {
+      "estado": "NORMAL",
+      "temperatura": 30.0,
+      "umidade": 60.0
+    },
+    "dashboard_http": 200,
+    "consulta_interna_dashboard": {
+      "url": "http://api:5000/dados",
+      "status": 200,
+      "dados": {
+        "estado": "NORMAL",
+        "temperatura": 30.0,
+        "umidade": 60.0
+      }
+    },
+    "resultado": "APROVADO"
+  },
+  {
+    "consulta_em": "2026-10-16T18:51:13.984197-03:00",
+    "origem": "Contêineres Docker reais; verificação somente de leitura; nenhum dado publicado pelo teste",
+    "servicos": [
+      {
+        "Name": "cp06-smart-factory-api-1",
+        "Service": "api",
+        "State": "running",
+        "Health": "healthy"
+      },
+      {
+        "Name": "cp06-smart-factory-dashboard-1",
+        "Service": "dashboard",
+        "State": "running",
+        "Health": "healthy"
+      }
+    ],
+    "api_http": 503,
+    "api_dados": {
+      "mensagem": "Aguardando dados do ESP32"
+    },
+    "dashboard_http": 200,
+    "consulta_interna_dashboard": {
+      "url": "http://api:5000/dados",
+      "status": 503,
+      "dados": {
+        "mensagem": "Aguardando dados do ESP32"
+      }
+    },
+    "resultado": "APROVADO"
+  },
+  {
+    "consulta_em": "2026-10-16T19:02:44.061964-03:00",
+    "origem": "Contêineres Docker reais; verificação somente de leitura; nenhum dado publicado pelo teste",
+    "servicos": [
+      {
+        "Name": "cp06-smart-factory-api-1",
+        "Service": "api",
+        "State": "running",
+        "Health": "healthy"
+      },
+      {
+        "Name": "cp06-smart-factory-dashboard-1",
+        "Service": "dashboard",
+        "State": "running",
+        "Health": "healthy"
+      }
+    ],
+    "api_http": 503,
+    "api_dados": {
+      "mensagem": "Aguardando dados do ESP32"
+    },
+    "dashboard_http": 200,
+    "consulta_interna_dashboard": {
+      "url": "http://api:5000/dados",
+      "status": 503,
+      "dados": {
+        "mensagem": "Aguardando dados do ESP32"
+      }
+    },
+    "resultado": "APROVADO"
+  }
+]
