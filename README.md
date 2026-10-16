@@ -2,7 +2,7 @@
 
 Monitoramento de temperatura e umidade com **ESP32, DHT22, MQTT e duas aplicações Flask em Docker**. A decisão ocorre na borda: o ESP32 lê o sensor, define o estado e acende os LEDs. A API recebe a última leitura; o dashboard apresenta os dados.
 
-> Projeto executado e demonstração integrada preparada em vídeo. A entrega só fica completa após publicar no GitHub/YouTube e inserir os links reais abaixo. Consulte [VALIDACAO.md](docs/VALIDACAO.md) para saber exatamente o que foi testado neste pacote.
+> Projeto executado e demonstração integrada preparada em vídeo. O repositório já está público no GitHub. Falta publicar o vídeo no YouTube e inserir seu link real abaixo. Consulte [VALIDACAO.md](docs/VALIDACAO.md) para saber exatamente o que foi testado neste pacote.
 
 ## Identificação e links obrigatórios
 
@@ -21,7 +21,7 @@ Monitoramento de temperatura e umidade com **ESP32, DHT22, MQTT e duas aplicaç�
 - Rafael Quattrer Dalla Costa — RM 562052
 - João Vitor Santana Silva Ribeiro — RM 564693
 
-O link Wokwi acima foi criado e verificado. Preencha os campos restantes antes de entregar. O professor solicita o **link do repositório público**; o ZIP é um pacote para transportar os arquivos, não substitui os links obrigatórios.
+Os links do GitHub e do Wokwi foram verificados. Falta inserir o link do YouTube antes de entregar. O professor solicita o **link do repositório público**; o ZIP é um pacote para transportar os arquivos, não substitui os links obrigatórios.
 
 ## Vídeo preparado
 
@@ -237,7 +237,7 @@ python dashboard/app.py
 
 ## Antes de entregar
 
-Use o [checklist de entrega](docs/CHECKLIST_ENTREGA.md). Publique todos os arquivos em um repositório **público** com este README na raiz. Insira os links reais do Wokwi e do vídeo **Não listado**. Teste os três links em janela anônima, sem login e sem convite. Mantenha-os acessíveis até o fim da avaliação. Conforme o enunciado, links ausentes, quebrados ou privados invalidam a atividade.
+Use o [checklist de entrega](docs/CHECKLIST_ENTREGA.md). O projeto já está neste repositório **público**, com o README na raiz e o link real do Wokwi. Publique o vídeo como **Não listado** e insira o link real. Teste os três links em janela anônima, sem login e sem convite. Mantenha-os acessíveis até o fim da avaliação. Conforme o enunciado, links ausentes, quebrados ou privados invalidam a atividade.
 
 ## Referências
 

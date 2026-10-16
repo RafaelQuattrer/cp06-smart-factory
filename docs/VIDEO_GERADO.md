@@ -12,4 +12,4 @@ A API foi reiniciada com o Wokwi parado antes da captura. O status 503 foi verif
 
 O arquivo foi decodificado integralmente sem erros. Metadados e quadros extraídos estão em `docs/evidencias/video/`.
 
-Antes de entregar: assistir, publicar o vídeo como Não listado e inserir o link real no README. GitHub e YouTube não foram publicados automaticamente.
+Antes de entregar: assistir, publicar o vídeo como Não listado e inserir o link real no README. O projeto já está publicado no GitHub público. O vídeo está na pasta video/ do repositório; a publicação no YouTube continua pendente.

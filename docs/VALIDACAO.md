@@ -45,7 +45,7 @@ As evidências textuais são registros dos resultados observados, não declaraç
 - A captura dos dois contêineres e de **30 °C → 35 °C → 36 °C → 30 °C** com o ESP32 como publicador foi concluída em 16/10/2026. Consulte [VIDEO_GERADO.md](VIDEO_GERADO.md).
 - Conferir o comportamento local sem rede e o efeito da umidade na leitura, sem alterar o critério de estado.
 - Revisar o vídeo simples de 2 minutos e publicar como Não listado.
-- Inserir links reais de GitHub e YouTube; integrantes/RMs e link Wokwi já foram inseridos.
+- Inserir o link real do YouTube. GitHub público, integrantes/RMs e link Wokwi já foram configurados e verificados.
 - Validar acesso anônimo aos três links e entregar o repositório público no canal do professor.
 
 O teste MQTT sintético e as capturas em `interface/` usam fixtures. As capturas em `wokwi-local/` vêm da execução do firmware no simulador com aplicações Python locais. As evidências em `docker/` foram obtidas após iniciar os contêineres reais. O vídeo em `video/` usa capturas da execução com Docker e Wokwi. A submissão só fica completa após publicar a demonstração e preencher os links restantes.

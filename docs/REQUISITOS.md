@@ -18,9 +18,9 @@ Base: PDF fornecido *CP06 - Smart Factory*, 4 páginas. A tabela indica implemen
 | Backend consulta http://api:5000/dados | requests.get no backend | Teste de chamada; Compose |
 | Botão Atualizar e estados/medidas | Template HTML e formulário GET | Teste de interface |
 | Espera sem valores fictícios | Ramo de erro do dashboard | Testes 503/rede/JSON |
-| Dois contêineres e portas/publicação | compose.yaml e Dockerfiles | Validação estrutural; Docker pendente se indisponível |
+| Dois contêineres e portas/publicação | compose.yaml e Dockerfiles | Validação estrutural; Docker executado e integração verificada |
 | README com equipe/links/arquitetura/dificuldade | README.md | Preenchimento final da equipe |
-| Vídeo 2–5 min, 30→35→36→30 | ROTEIRO_VIDEO.md | Gravação real a realizar |
+| Vídeo 2–5 min, 30→35→36→30 | ROTEIRO_VIDEO.md | Vídeo simples real de 2 minutos incluído |
 | GitHub público, Wokwi e YouTube acessíveis | Campos do README e checklist | Publicar e testar anonimamente |
 
 Pesos informados no PDF: borda/LEDs 2,5; MQTT 1,5; API 2,0; dashboard 1,5; Compose 1,5; documentação/links/vídeo 1,0. Extras visuais e testes não substituem funcionamento e links reais.
